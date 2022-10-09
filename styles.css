@@ -50,7 +50,8 @@ body {
 }
 
 .menu {
-    width: 1024px;
+    max-width: 1024px;
+    min-width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +60,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     max-height: 24px;
+    flex: 1;
 }
 
 .header a {
