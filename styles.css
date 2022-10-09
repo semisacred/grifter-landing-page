@@ -33,27 +33,9 @@ body {
     height: 56px;
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.header-left img {
-    width: 4rem;
-    height: 4rem;
-}
-
-.header-right img {
-    width: 0.9rem;
-    height: 0.9rem;
-}
-
-.header-right-grouping {
-    height: 56px;
-    display: flex;
-    align-items: center;
-    gap: 3px;
+.header a {
+    text-decoration: none;
+    color: white;
 }
 
 .header-menu {
@@ -69,12 +51,32 @@ body {
     flex: 1;
 }
 
-.header a {
-    text-decoration: none;
-    color: white;
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-left img {
+    width: 4rem;
+    height: 4rem;
 }
 
 .header-right {
     display: flex;
     gap: 8px;
 }
+
+.header-right img {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.header-right-grouping {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
