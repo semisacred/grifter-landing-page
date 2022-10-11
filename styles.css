@@ -1,13 +1,13 @@
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 @font-face {
     font-family: "Cindybob";
     src: url("./fonts/Cindybob.TTF");
-    }
+}
 
 body {
     display: flex;
@@ -16,30 +16,37 @@ body {
     margin: 0;
 }
 
-.flag-background {
+.background {
     background-image: url("./images/american-flag.jpg");
     background-color: #cccccc;
     width: 400vh;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
-.header {
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
     display: flex;
     justify-content: center;
-    padding: 16px;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
     height: 56px;
 }
 
-.header a {
+.header-container a {
     text-decoration: none;
     color: white;
 }
 
-.header-menu {
-    max-width: 1024px;
+.header {
+    max-width: 992px;
     min-width: 800px;
     display: flex;
     justify-content: space-between;
@@ -79,4 +86,68 @@ body {
     gap: 3px;
 }
 
+.section-one-container {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section-one {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    /* height: 290px; */
+    padding: 8px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    border-radius: 5px;
+    flex: 1;
+}
+
+.section-one-left-main {
+    font-family: Cindybob;
+    font-size: 28px;
+    text-shadow: 0px 0px red;
+}
+
+.section-one-left-main strong {
+    font-family: Cindybob;
+    font-size: 34px;
+    color: red;
+    text-shadow: 2px 0px black, 0px 2px black, -2px 0px black, 0px -2px black;
+}
+
+.section-one-left-secondary {
+    margin-top: 1px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.section-one-left-button {
+    width: 200px;
+    height: 37px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    margin-bottom: 4px;
+    border: solid rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.section-one-right img {
+    max-width: 400px;
+    max-height: auto;
+}
