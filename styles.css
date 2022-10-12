@@ -12,7 +12,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #0E3657;
+    background-color: #0C2D46;
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ body {
     background-image: url("./images/american-flag.jpg");
     background-color: #cccccc;
     width: 400vh;
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 16px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -87,7 +87,7 @@ body {
 }
 
 .section-one-container {
-    margin-top: 4px;
+    margin-top: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,23 +113,29 @@ body {
 
 .section-one-left-main {
     font-family: Cindybob;
-    font-size: 28px;
+    font-size: 40px;
     text-shadow: 0px 0px red;
+    line-height: 48px;
 }
 
 .section-one-left-main strong {
     font-family: Cindybob;
-    font-size: 34px;
+    font-size: 50px;
     color: red;
     text-shadow: 2px 0px black, 0px 2px black, -2px 0px black, 0px -2px black;
 }
 
 .section-one-left-secondary {
-    margin-top: 1px;
+    margin-top: 0px;
     margin-bottom: 14px;
-    font-size: 24px;
+    font-size: 22px;
     color: white;
     text-shadow: 2px 2px black;
+    line-height: 26px;
+}
+
+.section-one-left-secondary em {
+    font-size: 22px;
 }
 
 .section-one-left-button {
