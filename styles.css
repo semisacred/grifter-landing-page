@@ -87,7 +87,7 @@ body {
 }
 
 .section-one-container {
-    margin-top: 6px;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ body {
 
 .section-one-left-secondary {
     margin-top: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
     font-size: 24px;
     color: white;
     text-shadow: 2px 2px black;
