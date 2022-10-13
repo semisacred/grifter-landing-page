@@ -213,6 +213,11 @@ body {
     border-radius: 20px;
 }
 
+.section-two-one-box img, .section-two-two-box img, .section-two-three-box img, .section-two-four-box img {
+    border-radius: 15px;
+
+}
+
 .section-two-one-text, .section-two-two-text, .section-two-three-text, .section-two-four-text {
     color: white;
     text-align: center;
