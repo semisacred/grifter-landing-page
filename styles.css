@@ -19,11 +19,12 @@ body {
 .background {
     background-image: url("./images/american-flag.jpg");
     background-color: #cccccc;
-    width: 400vh;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 400vh;
+    height: 500px;
+    height: 535px;
 }
 
 .page {
@@ -46,16 +47,16 @@ body {
 }
 
 .header {
-    max-width: 992px;
-    min-width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
+    max-width: 992px;
+    min-width: 800px;
     color: rgb(255, 255, 255);
     padding: 16px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    flex: 1;
 }
 
 .header-left {
@@ -80,35 +81,34 @@ body {
 }
 
 .header-right-grouping {
-    height: 56px;
     display: flex;
     align-items: center;
     gap: 3px;
+    height: 56px;
 }
 
 .section-one-container {
-    margin-top: -1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16.5px;
+    margin-bottom: 36px;
 }
 
 .section-one {
-    max-width: 1024px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1024px;
 }
 
 .section-one-left {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    /* height: 290px; */
-    padding: 8px;
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    border-radius: 5px;
     flex: 1;
+    max-width: 600px;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .section-one-left-headline {
@@ -139,6 +139,9 @@ body {
 }
 
 .section-one-left-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 37px;
     background-color: rgb(255, 0, 0);
@@ -147,9 +150,6 @@ body {
     border: solid rgba(0, 0, 0, 0);
     border-width: 1px;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
 }
 
@@ -158,25 +158,34 @@ body {
     max-height: auto;
 }
 
-.section-two-container {
-    margin-top: 56px;
+.section-two-container-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    height: 450px;
+}
+
+.section-two-container {
+    display: flex;
+    justify-content: center;
 }
 
 .section-two {
-    max-width: 1024px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
+    max-width: 866px;
+    height: 400px;
 }
 
 .section-two-headline {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
     font-family: Cindybob;
     font-size: 40px;
     text-shadow: 0px 0px red;
     line-height: 48px;
+    margin-bottom: 44px;
 }
 
 .section-two-headline strong {
@@ -184,9 +193,22 @@ body {
     font-size: 50px;
     color: red;
     text-shadow: 2px 0px black, 0px 2px black, -2px 0px black, 0px -2px black;
+    padding-left: 3px;
 }
 
-.section-two-one-box {
-    padding: 16px;
+.section-two-one, .section-two-two, .section-two-three, .section-two-four {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.section-two-one-box, .section-two-two-box, .section-two-three-box, .section-two-four-box {
+    display: flex;
+    flex: 1;
+    min-width: 84px;
+    min-height: 84px;
+    max-width: 162px;
+    max-height: 162px;
     border: solid red;
+    border-radius: 20px;
 }
