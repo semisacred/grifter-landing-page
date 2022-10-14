@@ -52,7 +52,7 @@ body {
     align-items: center;
     flex: 1;
     max-width: 992px;
-    min-width: 800px;
+    min-width: 770px;
     color: rgb(255, 255, 255);
     padding: 16px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -214,7 +214,7 @@ body {
 }
 
 .section-two-one-box img, .section-two-two-box img, .section-two-three-box img, .section-two-four-box img {
-    border-radius: 15px;
+    border-radius: 16px;
 
 }
 
