@@ -160,8 +160,14 @@ body {
 .section-two-container-container {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-    height: 430px;
+    margin-top: 50px;
+    height: 400px;
+}
+
+.section-two-b-container-container {
+    display: flex;
+    flex-direction: column;
+    height: 405px;
 }
 
 .section-two-container {
