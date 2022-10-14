@@ -18,12 +18,11 @@ body {
 
 .background {
     background-image: url("./images/american-flag.jpg");
-    background-color: #cccccc;
+    background-color: #0C2D46;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400vh;
-    height: 500px;
+    width: 100vw;
     height: 535px;
 }
 
@@ -161,8 +160,8 @@ body {
 .section-two-container-container {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    height: 450px;
+    margin-top: 70px;
+    height: 430px;
 }
 
 .section-two-container {
@@ -224,4 +223,37 @@ body {
     margin-top: 5px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.section-three-container {
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/men-of-god.jpg");
+    background-color: #0C2D46;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three-quote {
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 0;
+}
+
+.section-three-source {
+    display: flex;
+    align-self: flex-end;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
