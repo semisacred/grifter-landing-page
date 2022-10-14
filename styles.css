@@ -113,7 +113,8 @@ body {
 .section-one-left-headline {
     font-family: Cindybob;
     font-size: 40px;
-    text-shadow: 0px 0px red;
+    color: #ffffff;
+    text-shadow: 1px 0px red, 0px 1px red, -1px 0px red, 0px -1px red;
     line-height: 48px;
 }
 
@@ -187,7 +188,8 @@ body {
     gap: 7px;
     font-family: Cindybob;
     font-size: 40px;
-    text-shadow: 0px 0px red;
+    color: #ffffff;
+    text-shadow: 1px 0px red, 0px 1px red, -1px 0px red, 0px -1px red;
     line-height: 48px;
     margin-bottom: 44px;
 }
