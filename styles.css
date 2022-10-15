@@ -322,3 +322,16 @@ body {
     text-decoration: none;
     margin-right: 60px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081623;
+    height: 100px;
+}
+
+.footer-copyright-disclaimer {
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
